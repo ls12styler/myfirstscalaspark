@@ -4,7 +4,7 @@ import org.apache.spark.sql.functions._
 import org.apache.spark.sql.DataFrame
 import java.text.SimpleDateFormat
 
-object MyScalaApp {
+object MyFirstScalaSpark {
 
   def main(args: Array[String]) {
     val spark = SparkSession.builder
