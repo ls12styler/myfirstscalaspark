@@ -22,6 +22,7 @@ object MyScalaApp {
     data.show
 
     val orderedData = data.orderBy(desc("Date of Payment"))
+    orderedData.explain(true)
     orderedData.show(5)
   }
 }
